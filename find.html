@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="the page where you can find the hotel">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="adjust.css">
+    <title>HOTEL</title>
+    <style> 
+        iframe { 
+          display: block; 
+          margin: auto; 
+          width: 100%;
+          border-radius: 5%;
+        } 
+      </style>
+</head>
+<body>
+    <header>
+        <img id="pic" src="hotel3.webp" alt="hotel enterance">
+    </header>
+    <nav class="topnav" id="myTopnav">
+        <a href="index.html">Home</a>
+        <a href="book.html">Book</a>
+        <a href="find.html" class="active">Find</a>
+        <a href="menu.html">Menu</a>
+        <a href="#" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+
+<script>
+function myFunction() {
+  window.history.pushState({}, "", "/new-page");
+  // perform other actions here, such as triggering an AJAX call
+}
+</script>
+
+
+
+    </nav>
+    <section>
+        <h2>Lorem.</h2>
+          <article>
+            <h3>Lorem, ipsum dolor.</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi fugiat itaque eos nostrum repellendus iste placeat ipsa! Fugiat ducimus pariatur error aspernatur corrupti atque nesciunt, exercitationem vero iste aperiam libero?</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, odio.</p> 
+          </article>
+      </section>
+    <aside>
+      <h2>On the map</h2>
+      <iframe title="myFrame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1384.0572011729053!2d12.975255002750082!3d55.56261494026223!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4653a12a23e43773%3A0x30ee0eccdefe33f3!2sQuality%20Hotel%20View!5e0!3m2!1sen!2sse!4v1674552563443!5m2!1sen!2sse" width="500" height="375" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </aside>
+    
+
+    <footer>
+        <p>Hotel Plaza | Hyllie stationstorg 29 | 215 32 Malmö | 076 123 44 55</p>
+        <div id="time"></div>
+    </footer>
+
+    <script src="script-nav.js"></script>
+    <script src="clock.js"></script>
+</body>
+</html>
