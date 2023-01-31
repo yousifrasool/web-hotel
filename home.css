@@ -13,6 +13,7 @@ h1{
 }
 header img{
     width: 100%;
+    height: auto;
 }
 footer{
     text-align: center;
@@ -79,10 +80,12 @@ a.active{
 }
 .mySlides img{
   border-radius: 3%;
-  width: 100%; 
+  width: 100%;
   height: auto;
 
 }
+
+
 
 
 /* Next & previous buttons */
